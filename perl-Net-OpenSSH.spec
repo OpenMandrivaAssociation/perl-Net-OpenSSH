@@ -1,9 +1,9 @@
 %define upstream_name    Net-OpenSSH
-%define upstream_version 0.50
+%define upstream_version 0.52
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 3
+Release:    %mkrel 1
 
 Summary:    Perl SSH client package implemented on top of OpenSSH
 License:    GPL+ or Artistic
