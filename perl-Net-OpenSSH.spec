@@ -1,15 +1,15 @@
 %define upstream_name    Net-OpenSSH
-%define upstream_version 0.52
+%define upstream_version 0.60
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 0.60
+Release:	1
 
 Summary:	Perl SSH client package implemented on top of OpenSSH
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Net/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Net/Net-OpenSSH-0.60.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Test::More)
@@ -61,4 +61,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 + Revision: 624998
 - Changed the summary and revamped the description
 - import perl-Net-OpenSSH
+
 
