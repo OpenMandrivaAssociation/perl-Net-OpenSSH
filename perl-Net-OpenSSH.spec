@@ -1,15 +1,15 @@
 %define upstream_name    Net-OpenSSH
-%define upstream_version 0.60
+%define upstream_version 0.62
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.60
+Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	Perl SSH client package implemented on top of OpenSSH
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Net/Net-OpenSSH-0.60.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Net/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Test::More)
@@ -47,19 +47,3 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc Changes README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
-
-%changelog
-* Thu May 12 2011 Guillaume Rousse <guillomovitch@mandriva.org> 0.520.0-1mdv2011.0
-+ Revision: 673817
-- update to new version 0.52
-
-* Sat Apr 23 2011 Funda Wang <fwang@mandriva.org> 0.500.0-3
-+ Revision: 657804
-- rebuild for updated spec-helper
-
-* Sat Dec 25 2010 Shlomi Fish <shlomif@mandriva.org> 0.500.0-2mdv2011.0
-+ Revision: 624998
-- Changed the summary and revamped the description
-- import perl-Net-OpenSSH
-
-

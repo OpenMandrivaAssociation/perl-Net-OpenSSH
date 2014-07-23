@@ -1,4 +1,5 @@
 removed_sources:
   Net-OpenSSH-0.52.tar.gz: a86485b1ce47c9ad6689aa688ebbbfe029e6eed8
-sources:
   Net-OpenSSH-0.60.tar.gz: 4f9cf6bfb4d10092177a80d04048c162dd689bd8
+sources:
+  Net-OpenSSH-0.62.tar.gz: 63edc15c13632698fdd1c3c23437216ab38a51f3
