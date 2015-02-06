@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	3
 
 Summary:	Perl SSH client package implemented on top of OpenSSH
 License:	GPL+ or Artistic
