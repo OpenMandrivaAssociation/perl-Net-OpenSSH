@@ -9,7 +9,7 @@ Summary:	Perl SSH client package implemented on top of OpenSSH
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/salva/p5-Net-OpenSSH
-Source0:	https://cpan.metacpan.org/authors/id/S/SA/SALVA/Net-OpenSSH-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/S/SA/SALVA/Net-OpenSSH-0.84.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
